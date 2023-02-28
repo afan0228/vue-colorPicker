@@ -2,11 +2,11 @@
  * @Author: t-anying.fan fan02288@163.com
  * @Date: 2023-02-28 15:24:21
  * @LastEditors: t-anying.fan fan02288@163.com
- * @LastEditTime: 2023-02-28 18:13:47
+ * @LastEditTime: 2023-02-28 19:03:37
  * @FilePath: \vue-pop-colorpicker-master\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# vue-pop-colorpicker
+# vue-colors-picker
 基于vue-color和element-ui的一个弹出式的颜色选择组件。
 
 支持直接手动更改hex或rgba等颜色值。
@@ -15,14 +15,14 @@
 
 ## 安装
 
-> npm install vue-pop-colorpicker --save
+> npm install vue-colors-picker --save
 
 ## 使用
 
 ### 全局组件
 
 ```
-import VueColorpicker from 'vue-colorPicker'
+import VueColorpicker from 'vue-colors-picker'
 Vue.use(VueColorpicker)
 ```
 
@@ -30,7 +30,7 @@ Vue.use(VueColorpicker)
 ### 局部组件
 
 ```
-import { VueColorpicker } from 'vue-colorPicker'
+import { VueColorpicker } from 'vue-colors-picker'
 
 new Vue({
   components: {
